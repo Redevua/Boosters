@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1AF58E2430C4FC008F10B3 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AF58D2430C4FC008F10B3 /* NSObject+Extension.swift */; };
+		1E1AF5902430C50C008F10B3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AF58F2430C50C008F10B3 /* UIView+Extension.swift */; };
+		1E1AF5952430CAFF008F10B3 /* MediaControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AF5942430CAFF008F10B3 /* MediaControlButton.swift */; };
+		1E1AF5972430CB20008F10B3 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AF5962430CB20008F10B3 /* UIButton+Extension.swift */; };
+		1E1AF59C2430CEEC008F10B3 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AF59B2430CEEC008F10B3 /* MainViewModel.swift */; };
+		1EA33D08243141AF0062CB18 /* SleepTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA33D07243141AF0062CB18 /* SleepTimerController.swift */; };
+		1EA33D0A243141D20062CB18 /* SleepTimerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA33D09243141D20062CB18 /* SleepTimerType.swift */; };
 		83066712242E3276003AF2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83066711242E3276003AF2B4 /* AppDelegate.swift */; };
 		8306671B242E3278003AF2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8306671A242E3278003AF2B4 /* Assets.xcassets */; };
 		8306671E242E3278003AF2B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8306671C242E3278003AF2B4 /* LaunchScreen.storyboard */; };
 		83066729242E3278003AF2B4 /* BoostersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83066728242E3278003AF2B4 /* BoostersTests.swift */; };
 		83066734242E3278003AF2B4 /* BoostersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83066733242E3278003AF2B4 /* BoostersUITests.swift */; };
+		83385ED82433818A006E4BC6 /* TimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83385ED72433818A006E4BC6 /* TimeCell.swift */; };
+		83385EDA2433ABF4006E4BC6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83385ED92433ABF4006E4BC6 /* Date+Extension.swift */; };
+		83385EDC2433ADC2006E4BC6 /* UIToolbar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83385EDB2433ADC2006E4BC6 /* UIToolbar+Extension.swift */; };
+		83385EDE2433AE1D006E4BC6 /* KeyInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83385EDD2433AE1D006E4BC6 /* KeyInputView.swift */; };
 		8357539C2430990C00E53379 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8357539B2430990C00E53379 /* MainCoordinator.swift */; };
 		835753A02430992500E53379 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8357539E2430992500E53379 /* BaseCoordinator.swift */; };
 		835753A12430992500E53379 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8357539F2430992500E53379 /* Coordinator.swift */; };
@@ -39,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E1AF58D2430C4FC008F10B3 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		1E1AF58F2430C50C008F10B3 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1E1AF5942430CAFF008F10B3 /* MediaControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaControlButton.swift; sourceTree = "<group>"; };
+		1E1AF5962430CB20008F10B3 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		1E1AF59B2430CEEC008F10B3 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		1EA33D07243141AF0062CB18 /* SleepTimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTimerController.swift; sourceTree = "<group>"; };
+		1EA33D09243141D20062CB18 /* SleepTimerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTimerType.swift; sourceTree = "<group>"; };
 		8306670E242E3276003AF2B4 /* Boosters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boosters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83066711242E3276003AF2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8306671A242E3278003AF2B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +68,10 @@
 		8306672F242E3278003AF2B4 /* BoostersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoostersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83066733242E3278003AF2B4 /* BoostersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostersUITests.swift; sourceTree = "<group>"; };
 		83066735242E3278003AF2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83385ED72433818A006E4BC6 /* TimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCell.swift; sourceTree = "<group>"; };
+		83385ED92433ABF4006E4BC6 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		83385EDB2433ADC2006E4BC6 /* UIToolbar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIToolbar+Extension.swift"; sourceTree = "<group>"; };
+		83385EDD2433AE1D006E4BC6 /* KeyInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInputView.swift; sourceTree = "<group>"; };
 		8357539B2430990C00E53379 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		8357539E2430992500E53379 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		8357539F2430992500E53379 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -84,6 +106,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E1AF58C2430C4ED008F10B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1E1AF58D2430C4FC008F10B3 /* NSObject+Extension.swift */,
+				1E1AF58F2430C50C008F10B3 /* UIView+Extension.swift */,
+				1E1AF5962430CB20008F10B3 /* UIButton+Extension.swift */,
+				83385ED92433ABF4006E4BC6 /* Date+Extension.swift */,
+				83385EDB2433ADC2006E4BC6 /* UIToolbar+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		1E1AF5922430CAE9008F10B3 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				835753AB24309C8A00E53379 /* Main */,
+			);
+			name = Flows;
+			sourceTree = "<group>";
+		};
+		1E1AF5932430CAF5008F10B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E1AF5942430CAFF008F10B3 /* MediaControlButton.swift */,
+				83385ED72433818A006E4BC6 /* TimeCell.swift */,
+				83385EDD2433AE1D006E4BC6 /* KeyInputView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		83066705242E3276003AF2B4 = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +209,9 @@
 		835753A724309C5B00E53379 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1E1AF58C2430C4ED008F10B3 /* Extensions */,
 				835753A924309C6A00E53379 /* Base */,
+				1E1AF5932430CAF5008F10B3 /* Views */,
 				835753A824309C6300E53379 /* Modules */,
 			);
 			name = Source;
@@ -166,7 +220,7 @@
 		835753A824309C6300E53379 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				835753AB24309C8A00E53379 /* Main */,
+				1E1AF5922430CAE9008F10B3 /* Flows */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
@@ -185,6 +239,9 @@
 				8357539B2430990C00E53379 /* MainCoordinator.swift */,
 				835753AC24309C9B00E53379 /* MainViewController.swift */,
 				835753AE24309CA400E53379 /* MainView.swift */,
+				1E1AF59B2430CEEC008F10B3 /* MainViewModel.swift */,
+				1EA33D07243141AF0062CB18 /* SleepTimerController.swift */,
+				1EA33D09243141D20062CB18 /* SleepTimerType.swift */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -319,13 +376,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E1AF5952430CAFF008F10B3 /* MediaControlButton.swift in Sources */,
 				835753AD24309C9B00E53379 /* MainViewController.swift in Sources */,
+				83385ED82433818A006E4BC6 /* TimeCell.swift in Sources */,
 				835753AF24309CA400E53379 /* MainView.swift in Sources */,
+				1E1AF58E2430C4FC008F10B3 /* NSObject+Extension.swift in Sources */,
 				8357539C2430990C00E53379 /* MainCoordinator.swift in Sources */,
+				1E1AF59C2430CEEC008F10B3 /* MainViewModel.swift in Sources */,
+				1E1AF5972430CB20008F10B3 /* UIButton+Extension.swift in Sources */,
 				835753A12430992500E53379 /* Coordinator.swift in Sources */,
+				83385EDC2433ADC2006E4BC6 /* UIToolbar+Extension.swift in Sources */,
+				83385EDE2433AE1D006E4BC6 /* KeyInputView.swift in Sources */,
+				83385EDA2433ABF4006E4BC6 /* Date+Extension.swift in Sources */,
 				835753A424309A4B00E53379 /* AppRoot.swift in Sources */,
+				1EA33D08243141AF0062CB18 /* SleepTimerController.swift in Sources */,
 				83066712242E3276003AF2B4 /* AppDelegate.swift in Sources */,
 				835753A02430992500E53379 /* BaseCoordinator.swift in Sources */,
+				1EA33D0A243141D20062CB18 /* SleepTimerType.swift in Sources */,
+				1E1AF5902430C50C008F10B3 /* UIView+Extension.swift in Sources */,
 				835753A524309A4B00E53379 /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,9 @@ class MainCoordinator: BaseCoordinator {
 
     override func onStart() {
         let contentView = MainView()
-        let controller = MainViewController(contentView: contentView)
+        let viewModel = MainViewModel()
+        let controller = MainViewController(contentView: contentView, viewModel: viewModel)
+        presentation.setNavigationBarHidden(true, animated: false)
         presentation.setViewControllers([controller], animated: true)
     }
 }
